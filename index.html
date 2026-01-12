@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Lover</title>
+  <link rel="stylesheet" href="public/style/style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav">
+
+      <div class="nav-left">
+        <img src="public/assets/add_call.png" alt="">
+        <p>085800220474</p>
+      </div>
+
+      <div class="nav-right">
+        <img src="public/assets/Instagram-Logo-PNG-HD 1.png" alt="">
+        <p>perpusipkabtegal</p>
+      </div>
+
+      <div class="tabs">
+        <a href="index.html" class="tab active">Rekomendasi</a>
+        <a href="rekomendasi.html" class="tab">Log</a>
+        <a href="search.html" class="tab">Search</a>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- MAIN -->
+  <main class="container">
+
+    <div class="header-content">
+      <div class="logo">
+        <h1>BO <br> OK</h1>
+        <h3>Lover</h3>
+      </div>
+
+    </div>
+
+    <!-- FILTER -->
+    <div class="filter">
+      <select id="mood">
+        <option value="">Apa yang kamu rasakan dan inginkan ...</option>
+        <option value="senang">Senang</option>
+        <option value="penasaran">Penasaran</option>
+        <option value="sedih">Sedih</option>
+        <option value="tenang">Tenang</option>
+        <option value="marah">Marah</option>
+      </select>
+
+      <select id="category">
+        <option value="">Pilih Genre</option>
+        <option value="romance">Romannce</option>
+        <option value="motivasi">Motivasi</option>
+        <option value="sastra">Sastra</option>
+        <option value="puisi">Puisi</option>
+        <option value="self-help">Self-help</option>
+        <option value="agama">Agama</option>
+        <option value="filsafat">Filsafat</option>
+        <option value="sejarah">Sejarah</option>
+        <option value="biografi">Biografi</option>
+      </select>
+
+      <button id="btnCari">Cari</button>
+    </div>
+
+    <!-- HASIL -->
+    <div id="book-list" class="book-list"></div>
+
+  </main>
+
+  <script src="public/js/script.js"></script>
+  <script src="public/js/klik.js"></script>
+</body>
+</html>
